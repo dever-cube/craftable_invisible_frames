@@ -14,6 +14,13 @@ repositories {
     // for more information about repositories.
 }
 
+git {
+    implementation 'https://github.com/dever-cube/nbt-crafting', {
+        name 'nbt-crafting'
+        commit 'origin/1.19-4.0'
+    }
+}
+
 dependencies {
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
